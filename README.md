@@ -2,7 +2,8 @@
 
 This is a personal portfolio website built to showcase my skills and services as a Prompt Engineer, Context Engineer, and Web Developer. The project is built with HTML, CSS, and JavaScript.
 
-![AI Banner](https://images.unsplash.com/photo-1534723452862-4c874018d66d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+<img width="1214" height="507" alt="image" src="https://github.com/user-attachments/assets/ac157ee9-9c6a-495c-b119-a1be33e3437d" />
+
 
 ## Table of Contents
 
