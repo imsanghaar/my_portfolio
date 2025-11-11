@@ -64,8 +64,6 @@ This file contains all the CSS rules to style the portfolio.
 - The skills section has animated progress bars.
 - The contact form is styled for a clean and modern look.
 
-![AI Art](https://images.unsplash.com/photo-1620712943543-2858200f7426?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-
 ### `script.js`
 
 This JavaScript file adds interactivity to the portfolio.
@@ -75,7 +73,7 @@ This JavaScript file adds interactivity to the portfolio.
 
 ## How to Use
 
-To view the portfolio, simply open the `index.html` file in a web browser. No special setup is required.
+To view the portfolio, simply open the `sanghaar.vercel.app` in the web browser or mobile phones.
 
 ## Credits
 
