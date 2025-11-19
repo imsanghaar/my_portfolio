@@ -6,10 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Imam Sanghaar Chandio - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="terminal-loader">
+      <div class="terminal-header">
+        <div class="terminal-title">PORTFOLIO INITIALIZATION</div>
+        <div class="terminal-controls">
+          <span class="control close"></span>
+          <span class="control minimize"></span>
+          <span class="control maximize"></span>
+        </div>
+      </div>
+      <div class="text-output" id="boot-text"></div>
+      <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <div class="access-granted" id="access-msg">ACCESS GRANTED</div>
+    </div>
+  </div>
+
+  <div id="particles-js"></div>
+
   <!-- Nav Bar -->
   <nav class="navbar">
     <h3 onclick="location.href='#hero'" class="logo" id="logo2">Sanghaar</h3>
@@ -74,7 +100,7 @@
         <br />
         <p class="w-text">
           I am a Certified Web Developer from <br />
-          NED University’s PITP. I have good knowledge <br />
+          NED University's PITP. I have good knowledge <br />
           in HTML, CSS and JS including Backend.
         </p>
       </div>
@@ -141,7 +167,7 @@
         <div class="service-card">
           <h1 class="web-name">Website Development</h1>
           <p class="web-text">
-            I can create websites using my website-making skills — whether it’s Frontend or Backend. From landing pages
+            I can create websites using my website-making skills — whether it's Frontend or Backend. From landing pages
             to school, business, education, or personal portfolio websites.
           </p>
           <a href="https://wa.me/+923441323835" target="_blank" class="service-btn">Get The Service</a>
