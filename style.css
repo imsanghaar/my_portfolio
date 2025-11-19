@@ -287,7 +287,7 @@ body {
 }
 
 .image-main {
-  border-radius: 50%;
+  border-radius: 100%;
   width: 200px;
   height: 200px;
   object-fit: cover;
