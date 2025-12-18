@@ -1,12 +1,28 @@
 # About Me
 
-Hi, I am **Imam Sanghaar Chandio**, a passionate Frontend Web Developer and certified Prompt & Context Engineer. I specialize in building dynamic, user-friendly websites and leveraging the power of Agentic AI to automate workflows and solve complex problems.
+Hi, I am **Imam Sanghaar Chandio**, a passionate Frontend Web Developer and certified Prompt & Context Engineer, currently residing in **Karachi, Pakistan**. I specialize in building dynamic, user-friendly websites and leveraging the power of Agentic AI to automate workflows and solve complex problems.
+
+This entire portfolio website, or my "digital book," is a testament to the power of AI Agents. I, Imam Sanghaar Chandio, don't write the code directly; instead, I utilize advanced prompting techniques, especially with tools like speckitplus, to instruct AI Agents to generate and develop these web experiences and other projects. This approach highlights my expertise in guiding AI to create sophisticated and functional digital solutions.
 
 ## Professional Experience
 
 ### DevelopersHub Corporation
 **Frontend Web Developer Intern**
 *Currently working as a Frontend Web Developer Intern.*
+
+---
+
+## Skills & Expertise
+
+My core web development skills include:
+*   **HTML, CSS, JavaScript:** Proficient in crafting responsive and interactive front-end experiences.
+*   **PHP, MySQL:** Solid understanding of back-end development and database management.
+*   **Python (Learning):** Currently expanding my knowledge in Python at the Presidential Initiative for Artificial Intelligence and Computing (PIAIC), focusing on its applications in AI.
+
+I am deeply connected with AI knowledge and possess expertise in:
+*   **AI Agent Creation:** Skilled in making advanced AI agents using platforms like Elevenlabs and other cutting-edge tools.
+*   **Google Sites:** Experienced in utilizing Google Sites for efficient content and small website creation.
+*   **Context Engineering:** Certified by PIAIC, I excel in structuring and refining prompts to ensure AI systems deliver precise and relevant outputs.
 
 ---
 
@@ -26,7 +42,7 @@ Secured the **2nd Position** at the district level (Ghotki District) for designi
 ## Technical Training & Certifications
 
 ### Web Development
-*   **NED University (PITP Course)**: Certified Web Developer with a strong foundation in HTML, CSS, JavaScript, and Backend technologies.
+*   **NED University (PITP Course)**: I have successfully completed my web development course from NED University's PITP Course, where I gained a strong foundation in HTML, CSS, JavaScript, and Backend technologies.
 
 ### Agentic AI
 *   **PIAIC (Current)**: Currently enrolled in the Presidential Initiative for Artificial Intelligence and Computing (PIAIC), focusing on Agentic AI and Context Engineering.
@@ -54,8 +70,13 @@ Secured the **2nd Position** at the district level (Ghotki District) for designi
 
 ---
 
+## Important Information
+
+*   **Projects Section:** The projects section will soon be available on my website, showcasing more of my AI-generated and prompted work.
+*   **Account Usernames/Names:** If you require specific account usernames or names for verification or connection, please feel free to ask, and I will provide them.
+
 ## Contact Me
 *   **Email**: imamsanghaar@gmail.com
 *   **Phone**: +92 344 1323835
-*   **Location**: Pakistan
+*   **Location**: Karachi, Pakistan
 *   **Socials**: [LinkedIn](https://www.linkedin.com/in/imam-sanghaar-chandio-96780b274/) | [GitHub](https://github.com/imsanghaar) | [Instagram](https://instagram.com/imsanghaar)

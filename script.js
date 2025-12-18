@@ -151,67 +151,38 @@ document.getElementById("about").textContent = "< About >";
 document.getElementById("skills").textContent = "< Skills >";
 document.getElementById("services").textContent = "< Services >";
 document.getElementById("contact").textContent = "< Contact >";
-// Loading Screen Logic
-document.addEventListener("DOMContentLoaded", () => {
-  const bootText = document.getElementById("boot-text");
-  const progressBar = document.getElementById("progress-bar");
-  const loader = document.getElementById("loader");
-  const accessMsg = document.getElementById("access-msg");
 
-  const messages = [
-    "Initializing Development Environment...",
-    "Loading AI Context Models...",
-    "Compiling HTML, CSS & JavaScript...",
-    "Training Prompt Engineering Algorithms...",
-    "Rendering Portfolio Components...",
-    "Optimizing User Experience...",
-    "Deploying Creative Solutions...",
-    "Welcome to My Portfolio!"
-  ];
+// Scroll-triggered animations
+const fadeInSections = document.querySelectorAll('#about-section, #skills-section, #service-section, #contact-info');
 
-  let messageIndex = 0;
-  let progress = 0;
-  const totalDuration = 6000; // 6 seconds total
-  const messageIntervalTime = totalDuration / messages.length;
+const observerOptions = {
+  root: null, // viewport
+  rootMargin: '0px',
+  threshold: 0.1 // 10% of the section must be visible
+};
 
-  // Disable scrolling during load
-  document.body.style.overflow = "hidden";
-
-  // Message Interval
-  const messageInterval = setInterval(() => {
-    if (messageIndex < messages.length) {
-      const line = document.createElement("div");
-      line.textContent = `> ${messages[messageIndex]}`;
-      bootText.appendChild(line);
-      bootText.scrollTop = bootText.scrollHeight;
-      messageIndex++;
-    } else {
-      clearInterval(messageInterval);
+const sectionObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      if (entry.target.id === 'skills-section') {
+        // Trigger skill bar animations when skills section is visible
+        const progressLines = entry.target.querySelectorAll('.progress-line');
+        progressLines.forEach(line => {
+          line.style.transform = 'scaleX(1)';
+          line.querySelectorAll('span').forEach(span => {
+            span.style.transform = 'scaleX(1)';
+          });
+        });
+      }
+      observer.unobserve(entry.target); // Stop observing once visible
     }
-  }, messageIntervalTime);
+  });
+}, observerOptions);
 
-  // Progress Bar Animation
-  const progressInterval = setInterval(() => {
-    progress += 1;
-    progressBar.style.width = `${progress}%`;
-    
-    if (progress >= 100) {
-      clearInterval(progressInterval);
-      showAccessGranted();
-    }
-  }, totalDuration / 100);
-
-  function showAccessGranted() {
-    accessMsg.style.display = "block";
-    setTimeout(() => {
-      loader.classList.add("fade-out");
-      document.body.style.overflow = "auto"; // Re-enable scrolling
-      
-      // Trigger AOS refresh to ensure animations play correctly after loader
-      setTimeout(() => {
-        AOS.refresh();
-      }, 500);
-    }, 1000); // Show "Access Granted" for 1 second before fading out
-  }
-});  
+fadeInSections.forEach(section => {
+  section.classList.add('fade-in-section'); // Add initial hidden state
+  sectionObserver.observe(section);
+});
+  
 
