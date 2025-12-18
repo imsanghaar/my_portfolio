@@ -1,83 +1,104 @@
-# My Portfolio
+# Imam Sanghaar Chandio
 
-This is a personal portfolio website built to showcase my skills and services as a Prompt Engineer, Context Engineer, and Web Developer. The project is built with HTML, CSS, and JavaScript.
+**Prompt Engineer | Context Engineer | Web Developer | n8n Automation Expert**
 
-<img width="1214" height="507" alt="image" src="https://github.com/user-attachments/assets/ac157ee9-9c6a-495c-b119-a1be33e3437d" />
+📍 **Location:** Currently in Karachi, Pakistan (Hometown: Larkana, Sindh)  
+🎂 **Born:** 23 August 2008  
+🌐 **Portfolio:** [sanghaar.vercel.app](https://sanghaar.vercel.app)
 
+---
 
-## Table of Contents
+## 🚀 About Me
 
-- [Project Overview](#project-overview)
-- [File Structure](#file-structure)
-- [Code Explanation](#code-explanation)
-  - [index.html](#indexhtml)
-  - [style.css](#stylecss)
-  - [script.js](#scriptjs)
-- [How to Use](#how-to-use)
-- [Credits](#credits)
+I am a passionate developer and AI enthusiast dedicated to building functional, aesthetically pleasing, and intelligent digital solutions. I specialize in **Frontend Web Development** and **Agentic AI**, constantly exploring new technologies to automate workflows and enhance user experiences.
 
-## Project Overview
+---
 
-You can view the live demo of this portfolio here: [sanghaar.vercel.app](https://sanghaar.vercel.app/)
+## 🎓 Education & Certifications
 
-The portfolio is a single-page application with multiple sections:
+### Higher Education & Training
+- **Agentic AI:** Currently learning at **PIAIC** (Presidential Initiative for Artificial Intelligence & Computing). Certified Prompt Engineer & Context Engineer.
+- **Web Development:** Completed Web Development certification from **NED University of Engineering & Technology** (PITP).
 
-- **Home:** A hero section with a personal image, a brief introduction, and links to my resume and social media profiles.
-- **About:** A section describing my expertise in Prompt Engineering, Web Development, n8n Automation, and Context Engineering.
-- **Skills:** A visual representation of my technical skills with progress bars.
-- **Services:** Cards detailing the services I offer, such as Website Development and Prompt Engineering.
-- **Contact:** A contact form for visitors to get in touch with me, along with my contact information and social media links.
+### Early Education
+- SZABIST Larkana
+- The Smart School, Larkana
+- The Educators, Larkana
 
-## File Structure
+---
 
+## 💼 Professional Experience
+
+- **Frontend Web Developer Intern** @ [Developers Hub Corporation](#)
+- **Student Brand Ambassador** @ [NFLP-Y – State Bank of Pakistan](#)
+
+---
+
+## 🛠️ Skills
+
+| Category | Skills |
+|----------|--------|
+| **Frontend** | HTML, CSS, JavaScript |
+| **Backend** | PHP, MySQL, Python (Learning) |
+| **AI & Automation** | Prompt Engineering, Context Engineering, n8n Automation |
+
+---
+
+## 🏆 Projects & Achievements
+
+- **STEAM Exhibition – District Ghotki**  
+  🥈 **2nd Position** for an Automatic obstacle-detecting robotic car (Arduino UNO & sensors).
+
+- **HRCA Academic Competitions – Pano Aqil**  
+  🥇 **Gold Medalist** – English Contest  
+  🥈 **Silver Medalist** – Science Contest
+
+- **AI Book Series**  
+  📚 Authored by Imam Sanghaar Chandio.  
+  [Visit Website](https://sanghaar-ai-book-series.vercel.app)
+
+---
+
+## 💼 Services Offered
+
+- **Website Development:** Full responsive websites for portfolios, businesses, and education.
+- **Prompt Engineering:** Professional prompting for blogs, articles, scripts, and research.
+- **n8n Automation:** Workflow automation for emails, newsletters, and AI agents.
+
+---
+
+## 📬 Connect With Me
+
+- **Email:** [imamsanghaar@gmail.com](mailto:imamsanghaar@gmail.com)
+- **WhatsApp:** [+92 344 1323835](https://wa.me/+923441323835)
+- **LinkedIn:** [Imam Sanghaar Chandio](https://www.linkedin.com/in/imam-sanghaar-chandio-96780b274/)
+- **Instagram:** [@imsanghaar](https://instagram.com/imsanghaar)
+- **Facebook:** [Imam Sanghaar Chandio](https://facebook.com/Imam%20Sanghaar%20Chandio)
+
+---
+
+> _"In the current era of AI, context engineering plays an essential role in making apps or anything using AI."_
+
+---
+
+## 💻 Technical Portfolio Details
+
+This repository contains the source code for my personal portfolio website.
+
+### Tech Stack
+- **HTML5** & **CSS3** (Custom Styling & Animations)
+- **JavaScript** (Typed.js, Particles.js, Vanilla Tilt, AOS)
+
+### File Structure
 ```
 .
-├── Imam_Sanghar.pdf
-├── index.html
-├── my_ghibli_image.jpg
-├── script.js
-└── style.css
+├── Imam_Sanghar.pdf  # Resume
+├── index.html        # Main content
+├── script.js         # Interactivity
+└── style.css         # Styling
 ```
 
-## Code Explanation
-
-### `index.html`
-
-This is the main HTML file that structures the content of the portfolio.
-
-- It includes a navigation bar that links to different sections of the page.
-- The hero section introduces me and my skills.
-- The "About Me" section provides more details about my qualifications.
-- The "Skills" section uses progress bars to show my proficiency in different technologies.
-- The "Services" section highlights the services I provide.
-- The "Contact" section includes a form for inquiries.
-- The footer contains copyright information.
-
-### `style.css`
-
-This file contains all the CSS rules to style the portfolio.
-
-- It uses a dark theme with a black background and white text.
-- The font "Orbitron" is used for a futuristic, tech-savvy look.
-- The layout is fully responsive and adapts to different screen sizes using media queries.
-- It includes hover effects and animations to make the user experience more interactive.
-- The skills section has animated progress bars.
-- The contact form is styled for a clean and modern look.
-
-### `script.js`
-
-This JavaScript file adds interactivity to the portfolio.
-
-- It handles the mobile navigation menu, allowing it to be toggled on and off.
-- It dynamically changes the text content of some elements to give them a styled, code-like appearance (e.g., `< Sanghaar >`).
-
-## How to Use
-
-To view the portfolio, simply open the `sanghaar.vercel.app` in the web browser or mobile phones.
-
-## Credits
-
-- **Fonts:** [Google Fonts](https://fonts.google.com/) ("Orbitron")
-- **Icons:** [Font Awesome](https://fontawesome.com/)
-- **Images:** The images used are from [Unsplash](https://unsplash.com/).
-- **Form Submission:** The contact form uses [FormSubmit](https://formsubmit.co/) to handle submissions.
+### Setup & Usage
+1. Clone the repository.
+2. Open `index.html` in your browser.
+3. Enjoy the animations!
