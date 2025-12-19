@@ -22,10 +22,12 @@
   <!-- Nav Bar -->
   <nav class="navbar">
     <h3 onclick="location.href='#hero'" class="logo" id="logo2"><img src="Gemini_Generated_Image_y432t0y432t0y432-removebg-preview.png" alt="Logo" class="navbar-logo"> Sanghaar</h3>
+
     <ul class="nav-links" id="nav-links">
       <li><a href="#hero" id="home">Home</a></li>
       <li><a href="#about-section" id="about">About</a></li>
       <li><a href="#skills-section" id="skills">Skills</a></li>
+      <li><a href="#projects-section" id="projects">Projects</a></li> <!-- Moved Projects Link to before Services -->
       <li><a href="#service-section" id="services">Services</a></li>
       <li><a href="#contact-info" id="contact">Contact</a></li>
     </ul>
@@ -36,38 +38,43 @@
 
   <!-- Hero Section -->
   <main id="hero">
-    <section class="hero-section">
-      <div class="image-container">
-        <img src="WhatsApp Image 2025-12-02 at 1.17.56 PM.jpeg" alt="sanghaar_image" class="image-main" />
-      </div>
-      <div class="intro">
-        <h3 class="hello" id="h3">Hello</h3>
-        <p class="text">I am Imam Sanghaar</p>
-        <br />
-        <p class="text2">
-          Prompt Engineer, Context Engineer, Web Developer, n8n automation
-        </p>
+    <section class="hero-section" data-aos="fade-up" data-aos-delay="200">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h3 class="hello" id="h3">Hi,</h3>
+          <h1 class="text">I am Imam Sanghaar Chandio</h1>
+          <p class="text2-container">
+            <span class="text2"></span>
+          </p>
 
-        <!-- Buttons -->
-        <div class="hero-buttons">
-          <a href="#contact-info"><button class="btn hero-btn">HIRE ME</button></a>
-          <a href="Imam_Sanghar.pdf" target="_blank"><button class="btn hero-btn2">RESUME</button></a>
+          <div class="social-icons icon2">
+            <a href="https://instagram.com/imsanghaar" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/imam-sanghaar-chandio-96780b274/" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/imsanghaar" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/+923441323835" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://web.facebook.com/profile.php?id=61556981875577" target="_blank"><i
+                class="fab fa-facebook"></i></a>
+          </div>
+
+          <!-- Buttons -->
+          <div class="hero-buttons">
+            <a href="#contact-info"><button class="btn hero-btn">HIRE ME</button></a>
+            <a href="Imam_Sanghar.pdf" target="_blank"><button class="btn hero-btn2">RESUME</button></a>
+          </div>
         </div>
-      </div>
-      <div class="social-icons icon2">
-        <a href="https://instagram.com/imsanghaar" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/imam-sanghaar-chandio-96780b274/" target="_blank"><i
-            class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/imsanghaar" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://wa.me/+923441323835" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://web.facebook.com/profile.php?id=61556981875577" target="_blank"><i
-            class="fab fa-facebook"></i></a>
+
+        <div class="image-container">
+          <img src="WhatsApp Image 2025-12-02 at 1.17.56 PM.jpeg" alt="sanghaar_image" class="image-main" />
+        </div>
       </div>
     </section>
 
+    <div class="section-separator"></div>
+
     <!-- About Section -->
-    <h1 class="abt" id="nmabt">About Me</h1>
-    <section class="about fade-in-section" id="about-section">
+    <h1 class="abt" id="nmabt" data-aos="fade-up">About Me</h1>
+    <section class="about fade-in-section" id="about-section" data-aos="fade-up" data-aos-delay="100">
       <div class="prompt">
         <h2 class="p-name">Prompt Engineer</h2>
         <br />
@@ -109,8 +116,10 @@
       </div>
     </section>
 
+    <div class="section-separator"></div>
+
     <!-- Skills Section -->
-    <section class="skills-section fade-in-section" id="skills-section">
+    <section class="skills-section fade-in-section" id="skills-section" data-aos="fade-up" data-aos-delay="200">
       <h1 class="skills-title">Skills</h1>
 
       <div class="skills">
@@ -143,8 +152,31 @@
       </div>
     </section>
 
+    <div class="section-separator"></div>
+
+    <!-- Projects Section -->
+    <section class="projects-section fade-in-section" id="projects-section" data-aos="fade-up" data-aos-delay="200">
+      <h1 class="projects-title">Projects</h1>
+      <div class="project-cards">
+        <div class="project-card" data-project-name="Projects will be added soon">
+          <div class="card-content">
+            <h2>Coming Soon</h2>
+            <p>Stay tuned for exciting updates!</p>
+          </div>
+        </div>
+        <div class="project-card" data-project-name="Projects will be added soon">
+          <div class="card-content">
+            <h2>Coming Soon</h2>
+            <p>Stay tuned for exciting updates!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-separator"></div>
+
     <!-- Services Section -->
-    <section class="services-section fade-in-section" id="service-section">
+    <section class="services-section fade-in-section" id="service-section" data-aos="fade-up" data-aos-delay="100">
       <h1 class="service">Services</h1>
       <div class="service-cards">
         <div class="service-card">
@@ -167,8 +199,10 @@
       </div>
     </section>
 
+    <div class="section-separator"></div>
+
     <!-- Redesigned Contact Section -->
-    <section id="contact-info" class="contact-section fade-in-section">
+    <section id="contact-info" class="contact-section fade-in-section" data-aos="fade-up" data-aos-delay="100">
       <h2 class="section-title">Let's Connect</h2>
       <p class="text45">Ready to collaborate or just want to say hello? Fill the form or reach out directly!</p>
 

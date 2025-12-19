@@ -1,104 +1,59 @@
-# Imam Sanghaar Chandio
+# Imam Sanghaar Chandio - Portfolio
 
-**Prompt Engineer | Context Engineer | Web Developer | n8n Automation Expert**
+Welcome to my personal portfolio website! This is a modern, interactive portfolio showcasing my skills, projects, and services as a Prompt Engineer, Context Engineer, and Web Developer.
 
-📍 **Location:** Currently in Karachi, Pakistan (Hometown: Larkana, Sindh)  
-🎂 **Born:** 23 August 2008  
-🌐 **Portfolio:** [sanghaar.vercel.app](https://sanghaar.vercel.app)
+## About Me
 
----
+I am Imam Sanghaar Chandio, a certified Prompt Engineer from PIAIC (Presidential Initiative for Artificial Intelligence and Computing), a Web Developer certified from NED University's PITP, and a specialist in AI automation using n8n systems. I also have knowledge in context engineering, which plays a crucial role in creating AI-powered applications.
 
-## 🚀 About Me
+## Features
 
-I am a passionate developer and AI enthusiast dedicated to building functional, aesthetically pleasing, and intelligent digital solutions. I specialize in **Frontend Web Development** and **Agentic AI**, constantly exploring new technologies to automate workflows and enhance user experiences.
+- Modern glass-morphism design with neon accents
+- Animated hero section with typing text effect
+- Interactive 3D tilt effect cards
+- Particle background animation
+- Fully responsive design for all devices
+- Dark theme optimized for eye comfort
+- Social icons properly aligned with text content
 
----
+## Sections
 
-## 🎓 Education & Certifications
+- **Hero Section**: Introduces myself with animated text and call-to-action buttons, with social icons aligned perfectly under the typing text
+- **About Me**: Highlights my four key specializations
+- **Skills**: Visual progress bars showing proficiency levels
+- **Projects**: Showcase of ongoing projects
+- **Services**: Web development and prompt engineering services
+- **Contact**: Direct contact form with social media links
 
-### Higher Education & Training
-- **Agentic AI:** Currently learning at **PIAIC** (Presidential Initiative for Artificial Intelligence & Computing). Certified Prompt Engineer & Context Engineer.
-- **Web Development:** Completed Web Development certification from **NED University of Engineering & Technology** (PITP).
+## Technologies Used
 
-### Early Education
-- SZABIST Larkana
-- The Smart School, Larkana
-- The Educators, Larkana
+- HTML5
+- CSS3 (with custom properties and animations)
+- JavaScript (with various libraries)
+- Typed.js for text animations
+- Vanilla-tilt for 3D effects
+- Particles.js for background effects
+- AOS (Animate On Scroll) for scroll animations
+- Font Awesome for icons
 
----
+## Responsive Design
 
-## 💼 Professional Experience
+The portfolio is fully responsive and adapts to different screen sizes:
+- Desktop: Full feature experience with precisely aligned elements
+- Laptop: Optimized layout with social icons aligned with text content
+- Mobile: Touch-friendly interface with hamburger menu and centered text layout
 
-- **Frontend Web Developer Intern** @ [Developers Hub Corporation](#)
-- **Student Brand Ambassador** @ [NFLP-Y – State Bank of Pakistan](#)
+## How to Use
 
----
+Simply open `index.html` in any modern web browser to view the portfolio.
 
-## 🛠️ Skills
+## Contact
 
-| Category | Skills |
-|----------|--------|
-| **Frontend** | HTML, CSS, JavaScript |
-| **Backend** | PHP, MySQL, Python (Learning) |
-| **AI & Automation** | Prompt Engineering, Context Engineering, n8n Automation |
+Feel free to reach out to me at:
+- Email: imamsanghaar@gmail.com
+- Phone: +92 344 1323835
+- GitHub: [imsanghaar](https://github.com/imsanghaar)
 
----
+## License
 
-## 🏆 Projects & Achievements
-
-- **STEAM Exhibition – District Ghotki**  
-  🥈 **2nd Position** for an Automatic obstacle-detecting robotic car (Arduino UNO & sensors).
-
-- **HRCA Academic Competitions – Pano Aqil**  
-  🥇 **Gold Medalist** – English Contest  
-  🥈 **Silver Medalist** – Science Contest
-
-- **AI Book Series**  
-  📚 Authored by Imam Sanghaar Chandio.  
-  [Visit Website](https://sanghaar-ai-book-series.vercel.app)
-
----
-
-## 💼 Services Offered
-
-- **Website Development:** Full responsive websites for portfolios, businesses, and education.
-- **Prompt Engineering:** Professional prompting for blogs, articles, scripts, and research.
-- **n8n Automation:** Workflow automation for emails, newsletters, and AI agents.
-
----
-
-## 📬 Connect With Me
-
-- **Email:** [imamsanghaar@gmail.com](mailto:imamsanghaar@gmail.com)
-- **WhatsApp:** [+92 344 1323835](https://wa.me/+923441323835)
-- **LinkedIn:** [Imam Sanghaar Chandio](https://www.linkedin.com/in/imam-sanghaar-chandio-96780b274/)
-- **Instagram:** [@imsanghaar](https://instagram.com/imsanghaar)
-- **Facebook:** [Imam Sanghaar Chandio](https://facebook.com/Imam%20Sanghaar%20Chandio)
-
----
-
-> _"In the current era of AI, context engineering plays an essential role in making apps or anything using AI."_
-
----
-
-## 💻 Technical Portfolio Details
-
-This repository contains the source code for my personal portfolio website.
-
-### Tech Stack
-- **HTML5** & **CSS3** (Custom Styling & Animations)
-- **JavaScript** (Typed.js, Particles.js, Vanilla Tilt, AOS)
-
-### File Structure
-```
-.
-├── Imam_Sanghar.pdf  # Resume
-├── index.html        # Main content
-├── script.js         # Interactivity
-└── style.css         # Styling
-```
-
-### Setup & Usage
-1. Clone the repository.
-2. Open `index.html` in your browser.
-3. Enjoy the animations!
+This project is created by Imam Sanghaar Chandio for personal portfolio purposes.

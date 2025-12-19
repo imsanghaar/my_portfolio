@@ -7,19 +7,21 @@ AOS.init({
 
 // Initialize Typed.js
 const typed = new Typed('.text2', {
-  strings: ['Prompt Engineer', 'Context Engineer', 'Web Developer', 'n8n Automation Expert'],
+  strings: ['Prompt Engineer', 'Context Engineer', 'Web Developer', 'AI Automation'],
   typeSpeed: 50,
   backSpeed: 30,
   backDelay: 2000,
-  loop: true
+  loop: true,
+  showCursor: true,
+  cursorChar: '|'
 });
 
 // Initialize Vanilla-Tilt
-VanillaTilt.init(document.querySelectorAll(".prompt, .web-d, .n8n, .context, .service-card"), {
+VanillaTilt.init(document.querySelectorAll(".prompt, .web-d, .n8n, .context, .service-card, .project-card"), {
   max: 15,
   speed: 400,
   glare: true,
-  "max-glare": 0.2,
+  "max-gl-are": 0.2,
 });
 
 // Navbar Logic
@@ -144,45 +146,34 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-// Dynamic Text Updates (keeping original logic but cleaning it up)
+// Dynamic Text Updates
 document.getElementById("logo2").textContent = "< Sanghaar >";
 document.getElementById("home").textContent = "< Home >";
 document.getElementById("about").textContent = "< About >";
 document.getElementById("skills").textContent = "< Skills >";
+document.getElementById("projects").textContent = "< Projects >";
 document.getElementById("services").textContent = "< Services >";
 document.getElementById("contact").textContent = "< Contact >";
 
-// Scroll-triggered animations
-const fadeInSections = document.querySelectorAll('#about-section, #skills-section, #service-section, #contact-info');
+// Scroll-triggered animations (for sections)
+const fadeInSections = document.querySelectorAll('#about-section, #skills-section, #projects-section, #service-section, #contact-info');
 
 const observerOptions = {
-  root: null, // viewport
+  root: null,
   rootMargin: '0px',
-  threshold: 0.1 // 10% of the section must be visible
+  threshold: 0.1
 };
 
 const sectionObserver = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('is-visible');
-      if (entry.target.id === 'skills-section') {
-        // Trigger skill bar animations when skills section is visible
-        const progressLines = entry.target.querySelectorAll('.progress-line');
-        progressLines.forEach(line => {
-          line.style.transform = 'scaleX(1)';
-          line.querySelectorAll('span').forEach(span => {
-            span.style.transform = 'scaleX(1)';
-          });
-        });
-      }
-      observer.unobserve(entry.target); // Stop observing once visible
+      observer.unobserve(entry.target);
     }
   });
 }, observerOptions);
 
 fadeInSections.forEach(section => {
-  section.classList.add('fade-in-section'); // Add initial hidden state
+  section.classList.add('fade-in-section');
   sectionObserver.observe(section);
 });
-  
-
